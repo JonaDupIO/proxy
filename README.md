@@ -1,6 +1,6 @@
 # proxy
 
-This container create a CTNLM proxy for ohter containers.
+This container create a CTNLM proxy for other containers.
 
 ```
 docker run -d -p 3128:3128 -v /etc/cntlm.conf:/etc/cntlm.conf --name proxy jonadup/proxy
