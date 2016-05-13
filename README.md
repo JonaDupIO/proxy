@@ -1,8 +1,8 @@
-# proxy
+# cntlm-proxy
 
 [![Docker Repository on Quay](https://quay.io/repository/jonadupio/cntlm-proxy/status "Docker Repository on Quay")](https://quay.io/repository/jonadupio/cntlm-proxy)
 
-This container create a CTNLM proxy for other containers based on [Alpine](https://hub.docker.com/_/alpine/)
+This Docker image create a CTNLM proxy for other containers based on [Alpine](https://hub.docker.com/_/alpine/)
 
 ```
 docker run -d -p 3128:3128 -v /etc/cntlm.conf:/etc/cntlm.conf --name proxy quay.io/jonadupio/cntlm-proxy
