@@ -4,6 +4,8 @@
 
 This Docker image create a CTNLM proxy for other containers based on [Alpine](https://hub.docker.com/_/alpine/)
 
+# Run the proxy
+
 ```
 docker run -d -p 3128:3128 -v /etc/cntlm.conf:/etc/cntlm.conf --name proxy quay.io/jonadupio/cntlm-proxy
 ```
